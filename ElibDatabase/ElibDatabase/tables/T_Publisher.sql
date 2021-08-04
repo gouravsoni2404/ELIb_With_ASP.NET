@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[T_Publisher]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1) PRIMARY KEY,
+	[FullName] VARCHAR(50) NOT NULL
+)

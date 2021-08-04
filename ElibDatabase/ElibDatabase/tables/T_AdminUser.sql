@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[T_AdminUser]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1) PRIMARY KEY,
+	[FullName] VARCHAR(50) NOT NULL,
+	[UserName] VARCHAR(50) NOT NULL,
+	[Password] VARCHAR(50) NOT NULL
+)
